@@ -114,6 +114,7 @@ nav {
 .header-texts {
   width: 85%;
   padding: 30px;
+  font-family: "Oswald";
   position: absolute;
   top: 37%;
   left:15%;
@@ -122,7 +123,7 @@ nav {
 
 .header-texts h2 {
   color: #85C1E9;
-  font-size: 2.5em;
+  font-size: 2.7em;
   text-transform: uppercase;
   line-height: 10px;
 }
@@ -185,6 +186,7 @@ nav {
 .project-title p{
   width: 30%;
   padding: 20px;
+  font-family: "Oswald", "Lato", Helvetica, sans-serif;
   color: #f2f3f4;
   font-size: 2.2em;
   font-weight: 700;
@@ -243,6 +245,7 @@ h2#projects-heading2-rightside {
 .container-box {
   width: 100%;
   display: flex;
+  margin: 0 auto;
 }
 
 .box-heading {
@@ -406,6 +409,17 @@ figure.thumbnail-hover-animation:hover figcaption::before {
   width: 100%;
   height: 100%;
   padding-bottom: 250px;
+  font-family: "Oswald", "Lato", Helvetica, sans-serif;
+  /* background-image: url("./../images/header-bgImg.png");
+  background-position:center;
+  background-size: cover; */
+}
+
+.aboutMe-opacity-wrapper {
+  width:100%;
+  height: 100%;
+  padding-bottom: 250px;
+  background-color: rgba(255,255,255, 0.8);
 }
 
 .aboutMe-heading {
@@ -430,7 +444,7 @@ figure.thumbnail-hover-animation:hover figcaption::before {
   color: #f4c00d;
   font-size: 2.0em;
   font-weight: 700;
-  line-height: 45px;
+  line-height: 42px;
   text-align: right;
   text-transform: uppercase;
 }
@@ -444,6 +458,8 @@ figure.thumbnail-hover-animation:hover figcaption::before {
   font-size: 1.2em;
   font-weight: 700;
   text-align: right;
+  line-height: 10px;
+  font-weight: 400;
 }
 
 #aboutMe-paragraph-mobile {
@@ -462,6 +478,7 @@ figure.thumbnail-hover-animation:hover figcaption::before {
 .contact-texts {
   width: 100%;
   padding: 0 0 0 10%;
+  font-family:  "Oswald", "Lato", Helvetica, sans-serif;
 }
 
 .contact-texts h6 {
@@ -616,16 +633,13 @@ footer a:hover {
 
   .aboutMe-heading h5{
     font-size: 4.5em;
+    line-height: 80px;
   }
 
   .aboutMe-subHeading {
     padding-right: 5vh;
   }
 
-  .aboutMe-subHeading h6 {
-    font-size: 1.5em;
-    line-height: 35px;
-  }
 
   /* contact */
 
@@ -707,7 +721,7 @@ footer a:hover {
 
   .header-texts h2 {
     margin-top: -15px;
-    font-size: 1.5em;
+    font-size: 2.0em;
     line-height: 30px;
   }
 
@@ -807,6 +821,9 @@ footer a:hover {
     height: auto;
     padding-top: 20px;
     margin-top: 15vh;
+    background-image: url("./../images/header-bgImg.png");
+    background-position: right;
+    background-size: cover;
   }
 
   .aboutMe-heading {
@@ -840,7 +857,7 @@ footer a:hover {
   #aboutMe-paragraph-mobile {
     display: block;
     font-size: 0.9em;
-    font-weight: 700;
+    font-weight: 400;
     color: #111;
     text-align: right;
     line-height: 22px;
